@@ -1,0 +1,57 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; 
+  color: #fff; 
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.show-card img {
+  width: 80px;
+  height: 120px;
+  margin-right: 15px;
+}
+
+.show-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.show-card p {
+  margin: 0;
+  color: #777;
+}
+
+.link {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
